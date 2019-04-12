@@ -7,6 +7,8 @@
 //
 
 #import "whViewController.h"
+#import <WHCategoryKit/HellowWorld.h>
+
 
 @interface whViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[HellowWorld new] log];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

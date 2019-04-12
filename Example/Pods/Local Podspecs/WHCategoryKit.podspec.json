@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of WHCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wenhao053/WHCategoryKit",
+  "homepage": "https://github.com/mawenhaoteam/WHCategoryKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "wenhao053": "308266423@qq.com"
   },
   "source": {
-    "git": "https://github.com/wenhao053/WHCategoryKit.git",
+    "git": "https://github.com/mawenhaoteam/WHCategoryKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WHCategoryKit/Classes/**/*"
+  "source_files": "WHCategoryKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }
