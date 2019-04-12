@@ -11,6 +11,7 @@
 
 -(void)say{
      NSLog(@"22222222") ;
+    NSLog(@"111111") ;
 }
 
 -(void)log{
