@@ -1,6 +1,6 @@
 {
   "name": "WHCategoryKit",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "summary": "A short description of WHCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mawenhaoteam/WHCategoryKit",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/mawenhaoteam/WHCategoryKit.git",
-    "tag": "0.1.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "WHCategoryKit/Classes/**/*",
+  "resource_bundles": {
+    "WHCategoryKit": [
+      "WHCategoryKit/Assets/*.png"
+    ]
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"

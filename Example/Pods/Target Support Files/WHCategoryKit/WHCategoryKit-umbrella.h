@@ -11,6 +11,8 @@
 #endif
 
 #import "HellowWorld.h"
+#import "TESTVC.h"
+#import "WHView.h"
 
 FOUNDATION_EXPORT double WHCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char WHCategoryKitVersionString[];

@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - WHCategoryKit (0.1.0):
+  - WHCategoryKit (0.5.0):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  WHCategoryKit: 25ad6a3c8ccbfe3f2c0b9de50b045eed79cadcf4
+  WHCategoryKit: b113b47f4eb933fef0bdeb1c640b3a5533008560
 
 PODFILE CHECKSUM: e54df96921c5b11a1f374ae9dda3e2c94d9674e5
 

@@ -7,11 +7,18 @@
 //
 
 #import "whAppDelegate.h"
+#import "TESTVC.h"
 
 @implementation whAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds ];
+    _window.backgroundColor = [UIColor whiteColor] ;
+    TESTVC * vc = [TESTVC new] ;
+    _window.rootViewController = vc ;
+    [_window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
