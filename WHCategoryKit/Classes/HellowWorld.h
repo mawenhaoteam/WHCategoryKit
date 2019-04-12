@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HellowWorld : NSObject
-
+-(void)say ;
 -(void)log ;
 @end
 

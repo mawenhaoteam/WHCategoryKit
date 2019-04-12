@@ -9,9 +9,14 @@
 
 @implementation HellowWorld
 
+-(void)say{
+     NSLog(@"22222222") ;
+}
+
 -(void)log{
     NSLog(@"hello world") ;
     NSLog(@"22222222") ;
+   
 }
 
 @end

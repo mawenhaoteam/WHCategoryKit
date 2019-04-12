@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
     [[HellowWorld new] log];
+    [[HellowWorld new] say];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
